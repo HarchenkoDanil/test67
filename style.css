@@ -1,0 +1,142 @@
+﻿body {
+	font-family: 'Onest', sans-serif;
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+a {
+	text-decoration: none; 
+}
+h1 {
+	color: aqua;
+	text-align: center
+}
+li {
+	list-style-type: none;
+		
+}
+.hader {
+	text-align: center;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	
+
+}
+.hader li {
+		display: inline-block;
+		
+}
+.hader a {
+		
+		color: black;
+		font-size: 1.5rem;
+		padding: 1.5rem;
+}
+.academiaKPT p {
+	margin-top: 2rem;
+	text-align: center;
+	font-size: 1.5rem;
+	font-weight: 700;
+}
+.academiaKPT li {
+	margin-top: 1rem;
+	text-align: center;
+	font-size: 1rem;
+	
+}
+.MetaKPT p {
+	margin-top: 2rem;
+	text-align: center;
+	font-size: 1.5rem;
+	font-weight: 700;
+}
+.MetaKPT li {
+	text-align: center;
+	font-size: 1rem;
+
+}
+.MetaKPT li {
+	text-align: center;
+	margin-bottom: 1rem;
+}
+
+.MetaKPT li:nth-of-type(3n+1) {
+		font-weight: bold;
+		color: #007bff;
+		font-size: 1.2rem;
+}
+.poslugi p {
+	margin-top: 2rem;
+	text-align: center;
+	font-size: 1.5rem;
+	font-weight: 700;
+}
+	.poslugi li {
+		text-align: center;
+		margin-bottom: 1rem;
+		font-size: 1rem;
+	}
+.fotoflex img {
+	width: 500px;
+	height: 510px;
+	margin-top: 2rem;
+	float: left;
+	margin-right: 10px;
+}
+.fotoflex {
+	display: flex;
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+}
+.fotoflex p {
+		margin-top: 2rem;
+}
+.fotoflex p:first-child {
+ font-weight: 700;
+}
+	.fotoflex a {
+		color: black	;
+	}
+	.fotoflex a:hover {
+		color:blue	;
+	}
+.CONTACT  {
+	text-align: center;
+	margin-top: 1.5rem;
+	
+}
+	.CONTACT p {
+		font-weight: 700;
+	}
+.CONTACT a {
+margin-right: 1rem;
+color: black	; 
+font-weight: 500; 
+		
+}
+	.CONTACT a:hover {
+		color: blue;
+	}
+.imgocument iframe {
+	
+	width: 1000px;
+	height: 1000px;
+}
+.imgocument {
+	margin-top: 2rem;
+}
+
+.imgocument {
+	display: flex;
+	flex-direction: column; 
+	justify-content: center;
+	align-items: center;
+	
+}
+
+	.imgocument div {
+		margin: 10px;
+	}
